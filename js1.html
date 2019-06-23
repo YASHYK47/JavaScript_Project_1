@@ -4,10 +4,34 @@
 	<title>
 		The Pig Game!
 	</title>
+	<meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	
+	<div class="outerbox effect">
+		<div class="innerleftbox active">
+			<div class="player">Player1</div>
+			<div class="value">42</div>
+			<div class="scorebox">
+				<div class="current">Current</div>
+				<div class="playercurrentscore">11</div>
+			</div>
+		</div>
+		<div class="innerrightbox">
+			<div class="player">Player2</div>
+			<div class="value">56</div>
+			<div class="scorebox">
+				<div class="current">Current</div>
+				<div class="playercurrentscore">25</div>
+			</div>
+		</div>
+		<button class="newgame"><i class="ion-ios-plus-outline"></i>New Game</button>
+		<button class="rolldice"><i class="ion-ios-loop"></i>Roll-Dice</button>
+		<button class="hold"><i class="ion-ios-download-outline"></i>Hold</button>
+		<img src="dice-5.png" class="dice">
+	</div>
 <script src="app.js"></script>
 </body>
 </html>
