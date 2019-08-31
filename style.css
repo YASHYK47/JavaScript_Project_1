@@ -11,19 +11,10 @@ body{
 	background-size: cover;
 	overflow-y: hidden;
 	overflow-x: hidden;
-	/*height: 100vh;*/
 }
-/*.effect::after{
-	background-color: rgba(0,0,0,.5);
-}*/
 .outerbox{
 	background-color: #ffffff;
-	/*box-sizing: border-box;*/
-	/*margin-bottom: 0;*/
 	height: 95vh;
-	/*margin:20px 15% 0 15%;*/
-	/*padding:50px 150px 90px 150px;*/
-	/*padding-bottom: 100%;*/
 	position: absolute;
 	top:50%;
 	left:50%;
@@ -35,7 +26,6 @@ body{
 	width:50%;
 	float: left;
 	padding: 92.5px;
-	/*height: 600px;*/
 }
 .player{
 	font-size: 42px;
@@ -44,8 +34,6 @@ body{
 	margin-top: 20px;
 	margin-bottom: 30px;
 	letter-spacing: 2px;
-	/*position: relative;*/
-
 }
 .value{
 	font-size: 70px;
@@ -59,7 +47,6 @@ body{
 }
 .scorebox{
 	background-color: #EB4D4D;
-	/*position: absolute;*/
 	padding: 10px;
 	margin: 0 auto;
 	width: 40%;
@@ -68,9 +55,7 @@ body{
 .current{
 	text-transform: uppercase;
 	font-size: 20px;
-	/*margin-bottom: 2px;*/
 	text-align: center;
-
 }
 .playercurrentscore{
 	text-align: center;
@@ -91,13 +76,9 @@ button{
 	cursor: pointer;
 	transition:  0.3s;
 	font-size: 20px;
-	/*font-weight: 300;*/
 }
 button:hover { font-weight: 600; }
 button:hover i { margin-right: 20px; }
-button:focus{
-	/*outline:none;*/
-}
 .active .player{
 	font-weight: 600;
 }
@@ -105,22 +86,15 @@ button:focus{
 	content: "\2022";
 	position: absolute;
 	color:#EB4D4D;
-	/*right: 100px;*/
 }
 i{
-	/*top:200px;*/
 	position:relative;
 	top:-5px;
-
 	color:#EB4D4D;
 	font-size: 30px;
-	/*padding-right: 10px;*/
 	margin-right: 10px;
 	vertical-align: text-top;
-	/*margin-top: -140px;*/
-	/*line-height: 1;*/
 	transition: 0.3s;
-	/*display: inline-block;*/
 }
 .newgame{
 	top:40px;
@@ -128,11 +102,9 @@ i{
 }
 .rolldice{
 	top:410px;
-
 }
 .hold{
 	top:475px;
-
 }
 .dice{
 	position: absolute;
@@ -140,9 +112,7 @@ i{
 	transform: translateX(-50%);
 	top:200px;
 	width: 100px;
-	/*height: 100px;*/
-	box-shadow: 0 10px 60px rgba(0,0,0,.5) 
-
+	box-shadow: 0 10px 60px rgba(0,0,0,.5);
 }
 .winner{
 	background-color: #f7f7f7;

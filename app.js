@@ -46,7 +46,6 @@ document.querySelector('.hold').addEventListener('click',function(){
 			document.getElementById('currentscore-0').textContent='0';
 			document.querySelector('.current').style.color='black';
 			document.getElementById('currentscore-1').textContent='0';
-	
 			game=false;
 		// init();
 	}
@@ -56,7 +55,6 @@ document.querySelector('.hold').addEventListener('click',function(){
 	}
 }
 });
-
 document.querySelector('.newgame').addEventListener('click',init);
 
 function init(){
